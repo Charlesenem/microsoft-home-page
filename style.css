@@ -1,0 +1,330 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    min-width: 320px;
+    color: #000;
+    background-color: #fff;
+}
+
+.container {
+    width: 90%;
+    height: 80px;
+    background-color: #fff;
+}
+
+.c-image {
+    margin-top: 1px;
+    max-width: none;
+    width: 108px;
+    float: left;
+    padding: 16px 14px;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    max-width: 100%;
+    margin-right: 240px;
+}
+
+.btn:hover {
+    font-weight: bolder;
+    color: grey;
+    transition: 1.8s;
+    text-decoration: underline;
+}
+
+
+nav ul li {
+   
+    list-style: none;
+    
+}
+
+nav ul li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 14px;
+    padding: 22px 14px;
+    text-decoration: none;
+    float: left;
+    position: relative;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+.allm {
+    margin-left: 1000px;
+    
+}
+
+.submenu {
+    position: absolute;
+    width: 88%;
+    margin-left: -1000px;
+    margin-top: 50px;
+    padding: 10px;
+    height: 450px;
+    color: black;
+    background: #d7d7d7;
+    border: 10px solid #d7d7d7;
+    
+    display: none;
+
+}
+.uhf {
+    width: 18%;
+    float: left;
+}
+
+.uhf li a {
+    float: none;
+    display: block;
+}
+
+nav ul li:hover .uhf li a {
+    color: #000;
+    background: #d7d7d7;
+}
+
+nav ul li .uhf li:hover a{
+    text-decoration: underline;
+
+}
+
+nav ul li:hover .submenu {
+    display: block;
+}
+
+
+/* top container */
+.top-container {
+    background-image: url(images/laptop.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-align: left;
+}
+
+.top-container h2 {
+    color: black;
+    font-size: 100px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.top-container p {
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.2em;
+    padding: 30px 0px;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 20px;
+
+}
+
+
+#btns {
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20px;
+    line-height: 1.8em;
+    transition: all 200ms ease-in-out;
+    
+
+}
+
+/* boxes */
+.boxes {
+    margin-top: 20px;
+    box-sizing: border-box;
+    
+}
+
+.box {
+    float: left;
+    width: 21.5%;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.box img {
+    width: 100%;
+}
+
+.box a {
+    text-decoration: none;
+    color:  #0067b8;
+    padding-top: 2px;
+}
+
+.box a:hover {
+   text-decoration: underline;
+   transition: 1.5s;
+}
+
+
+/* top container 2 */
+.top-container-2 {
+    background-image: url(images/woman\ lappy.webp);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    margin-top: 450px;
+    margin-bottom: 70px;
+    text-align: left;
+}
+
+.top-container-2 h2 {
+    color: black;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    padding-top: 80px;
+    padding-left: 70px;
+    padding-bottom: 1px;
+}
+
+.top-container-2 p {
+    color:#000;
+    font-size: 30px;
+    line-height: 1.2em;
+    padding-top: 1px;
+    margin-top: 10px;
+    padding-left: 70px;
+    padding-bottom: 10px;
+
+}
+
+
+/* last icons */
+.last-icons {
+    float: left;
+    
+    padding: 0 5px;
+}
+
+section p {
+    float: left;
+    padding-right: 10px;
+}
+
+.logo {
+    float: right;
+    padding: 0 5px;
+}
+
+/* footer */
+
+.footer {
+    position: absolute;
+    margin: 0 auto;
+    width: 90%;
+    padding: 0 5%;
+    margin-top: 400px;
+    padding: 10px;
+    height: 200px;
+    color: black;
+    background: #f2f2f2;;
+    border: 10px solid #f2f2f2;;
+}
+
+.vhf {
+    float: left;
+    width:20%;
+}
+
+.footer ul li {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+}
+
+.footer ul li :hover{
+    text-decoration: underline;
+}
+
+
+.footer ul li a {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 11px;
+    padding: 8px 0px;
+    text-decoration: none;
+    
+    position: relative;
+}
+
+.base {
+    margin: 0 auto;
+    max-width: calc(1600px + 10%);
+    padding: 30px 55.6875px 16px;
+}
+
+#globe {
+    font-size: 11px;
+    margin-top: 50px;
+    margin-right: 1276px;
+    margin-left: 0;
+    line-height: 16px;
+    
+    padding: 8px 0px;
+    color: #616161;
+    float: right;
+    white-space: nowrap;
+}
+
+.base ul li {
+    margin-left: 500px;
+}
+
+.base ul li a {
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 60px;
+    margin-top: -27px;
+    
+}
+
+.base ul li :hover {
+    text-decoration: underline;
+}
+ 
+/* media queries */
+
+@media screen and (max-width: 1366px) {
+  
+    .container {
+        width: 90%;
+        height: 80px;
+    }
+        
+
+
+}
+
+  
+
